@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h3{
+    
+    margin-left: 5%;
+    font-size: 23px;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-right: 20%;
+    width: 50%;
+}
+
+.list-items > a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero > img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 50% 95%;
+}
+
+.hero > h1{
+    position: absolute;
+    top: 20%;
+    color: white;
+    font-size: 75px;
+}
+
+main{
+    
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+}
+
+.date{
+    width: 100%;
+    margin-top: 8vh;;
+    border: 1px solid rgb(217, 217, 217);
+    background-color: rgb(239, 239, 239);
+}
+
+.marq {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+
+}
+
+.marq > img {
+    width: 20%;
+    margin-left: 1.5%;
+}
+
+.marq > article {
+    width: 20%;   
+}
+
+.marq > article > p, .marq > article > h4 {
+    margin-bottom: 1vh;
+}
+
+.marq > button {
+    width: 110px;
+    height: 45px;
+    font-size: 15px;
+    background-color: rgb(244, 196, 1);
+    border: 1px solid rgb(244, 196, 1);
+    color: white;
+}
+
+hr {
+    margin-top: 2vh;
+    border: 1px solid rgb(163, 163, 163);
+}
+
+footer {
+    border: 1px solid red;
+    width: 100%;
+    background-color: black
+}
+
+.footinfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    
+}
+
+.footinfo > img {
+    width: 20%;
+    margin-left: 1.5%;
+}
+
